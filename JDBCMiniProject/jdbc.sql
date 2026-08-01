@@ -1,0 +1,9 @@
+SELECT RollNo, Fees FROM Student;
+
+SELECT RollNo, Fees
+FROM Student
+WHERE RollNo = 1001;
+
+UPDATE STUDENT
+SET FEE = ?
+WHERE ROLLNO = ?;
