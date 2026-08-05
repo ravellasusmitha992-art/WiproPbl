@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Digital Clock</title>
+
+<script>
+
+function showTime()
+{
+    var d = new Date();
+
+    var time = d.getHours() + ":" +
+               d.getMinutes() + ":" +
+               d.getSeconds();
+
+    document.getElementById("clock").value = time;
+
+    setTimeout(showTime,1000);
+}
+
+</script>
+
+</head>
+
+<body onload="showTime()">
+
+<h2>Current Time</h2>
+
+<input type="text" id="clock" size="10">
+
+</body>
+</html>

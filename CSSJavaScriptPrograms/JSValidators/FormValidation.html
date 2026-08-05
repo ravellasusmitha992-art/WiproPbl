@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Validation</title>
+
+    <script>
+
+    function validateForm()
+    {
+        var member = document.getElementById("member").value;
+        var password = document.getElementById("password").value;
+
+        // Member Number Validation
+        if(member=="")
+        {
+            alert("Member Number must be entered");
+            document.getElementById("member").focus();
+            return false;
+        }
+
+        if(isNaN(member))
+        {
+            alert("Member Number must be a number");
+            document.getElementById("member").focus();
+            return false;
+        }
+
+        // Password Validation
+        if(password=="")
+        {
+            alert("Password must be entered");
+            document.getElementById("password").focus();
+            return false;
+        }
+
+        if(password.length<=4)
+        {
+            alert("Password must be longer than 4 characters");
+            document.getElementById("password").focus();
+            return false;
+        }
+
+        alert("Form Submitted Successfully");
+        return true;
+    }
+
+    </script>
+
+</head>
+
+<body>
+
+<h2>Member Login Form</h2>
+
+<form onsubmit="return validateForm()">
+
+Member Number:
+<input type="text" id="member"><br><br>
+
+Password:
+<input type="password" id="password"><br><br>
+
+<input type="submit" value="Submit">
+
+</form>
+
+</body>
+</html>

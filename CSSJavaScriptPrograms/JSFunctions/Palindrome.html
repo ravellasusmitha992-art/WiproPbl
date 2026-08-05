@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Palindrome Check</title>
+</head>
+<body>
+
+<h2>Palindrome Checker</h2>
+
+<script>
+
+function checkPalindrome(str)
+{
+    var rev = str.split("").reverse().join("");
+
+    if(str == rev)
+    {
+        document.write(str + " is a Palindrome");
+    }
+    else
+    {
+        document.write(str + " is Not a Palindrome");
+    }
+}
+
+var str = prompt("Enter a String:");
+
+checkPalindrome(str);
+
+</script>
+
+</body>
+</html>
