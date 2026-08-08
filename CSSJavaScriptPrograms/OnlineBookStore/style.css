@@ -1,0 +1,267 @@
+/* ================= BODY ================= */
+
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+
+/* ================= MAIN TITLE ================= */
+
+.main-title {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 25px;
+    font-size: 25px;
+}
+
+
+/* ================= PROMOTION ================= */
+
+.promotion {
+    width: 100%;
+    min-height: 150px;
+
+    background: #e49bd2;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 3px;
+
+    padding: 15px;
+}
+
+
+.promotion-text {
+    text-align: center;
+    color: #6b145d;
+}
+
+
+.promotion-text h3 {
+    font-size: 16px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+
+.promotion-text h1 {
+    font-size: 30px;
+    margin: 5px 0;
+
+    font-weight: bold;
+}
+
+
+.promotion-text p {
+    font-size: 18px;
+    margin: 0;
+
+    text-transform: lowercase;
+}
+
+
+.promotion-logo img {
+    width: 120px;
+    height: 100px;
+
+    object-fit: cover;
+
+    margin-left: 25px;
+
+    border-radius: 50%;
+}
+
+
+/* ================= BUTTONS ================= */
+
+.store-btn {
+
+    border: 1px solid #999;
+
+    margin: 5px;
+
+    padding: 8px 18px;
+
+    font-size: 15px;
+
+    border-radius: 3px;
+}
+
+
+.store-btn:hover {
+
+    background-color: #eeeeee;
+
+}
+
+
+/* ================= SECTION TITLE ================= */
+
+.section-title {
+
+    margin-top: 35px;
+
+    margin-bottom: 15px;
+
+    border-bottom: 1px solid #cccccc;
+
+    height: 25px;
+
+}
+
+
+.section-title span {
+
+    background-color: white;
+
+    padding-right: 10px;
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+}
+
+
+/* ================= BOOK ROW ================= */
+
+.book-row {
+
+    margin-bottom: 25px;
+
+}
+
+
+/* ================= BOOK CARD ================= */
+
+.book-card {
+
+    text-align: center;
+
+    padding: 10px;
+
+    min-height: 280px;
+
+    transition: 0.3s;
+
+}
+
+
+.book-card:hover {
+
+    transform: translateY(-5px);
+
+}
+
+
+/* ================= BOOK IMAGE ================= */
+
+.book-image {
+
+    width: 120px;
+
+    height: 160px;
+
+    object-fit: cover;
+
+    border-radius: 8px;
+
+    border: 1px solid #ddd;
+
+    box-shadow: 0px 2px 5px #aaa;
+
+}
+
+
+/* ================= BOOK TITLE ================= */
+
+.book-card h6 {
+
+    margin-top: 10px;
+
+    margin-bottom: 4px;
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+}
+
+
+/* ================= AUTHOR ================= */
+
+.book-card p {
+
+    font-size: 12px;
+
+    color: #666;
+
+    margin: 3px;
+
+}
+
+
+/* ================= PRICE ================= */
+
+.book-card span {
+
+    font-size: 13px;
+
+    color: #333;
+
+}
+
+
+/* ================= FOOTER ================= */
+
+.footer {
+
+    margin-top: 30px;
+
+    padding: 20px;
+
+    text-align: center;
+
+    border-top: 1px solid #ddd;
+
+    color: #777;
+
+    font-size: 13px;
+
+}
+
+
+/* ================= MOBILE ================= */
+
+@media screen and (max-width: 576px) {
+
+    .main-title {
+        font-size: 20px;
+    }
+
+
+    .promotion {
+        flex-direction: column;
+    }
+
+
+    .promotion-logo img {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+
+    .promotion-text h1 {
+        font-size: 24px;
+    }
+
+
+    .book-image {
+        width: 100px;
+        height: 140px;
+    }
+
+}
