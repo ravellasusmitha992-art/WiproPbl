@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Servlets Parameters</title>
+</head>
+<body>
+
+<h2>Student Registration Form</h2>
+
+<form action="params" method="post">
+
+    Name:
+    <input type="text" name="name">
+    <br><br>
+
+    Email:
+    <input type="email" name="email">
+    <br><br>
+
+    Password:
+    <input type="password" name="password">
+    <br><br>
+
+    Age:
+    <input type="number" name="age">
+    <br><br>
+
+    Gender:
+    <input type="radio" name="gender" value="Male"> Male
+    <input type="radio" name="gender" value="Female"> Female
+    <br><br>
+
+    Skills:
+    <input type="checkbox" name="skill" value="Java"> Java
+    <input type="checkbox" name="skill" value="Python"> Python
+    <input type="checkbox" name="skill" value="HTML"> HTML
+    <br><br>
+
+    City:
+    <select name="city">
+        <option value="Hyderabad">Hyderabad</option>
+        <option value="Chennai">Chennai</option>
+        <option value="Bangalore">Bangalore</option>
+    </select>
+    <br><br>
+
+    Comments:
+    <textarea name="comments"></textarea>
+    <br><br>
+
+    <input type="hidden" name="course" value="Java Servlet">
+
+    <input type="submit" value="Submit">
+
+</form>
+
+</body>
+</html>
