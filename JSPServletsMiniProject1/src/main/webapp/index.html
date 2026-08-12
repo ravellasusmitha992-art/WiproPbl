@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Online Auction</title>
+
+    <style>
+        body {
+            font-family: "Times New Roman", serif;
+            background-color: white;
+        }
+
+        .auction-box {
+            width: 600px;
+            margin: 50px auto;
+            padding: 25px;
+            background-color: #fff8e8;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 35px;
+        }
+
+        table {
+            margin: auto;
+            font-size: 20px;
+        }
+
+        td {
+            padding: 4px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="number"] {
+            width: 130px;
+            height: 25px;
+            font-size: 16px;
+        }
+
+        input[type="submit"] {
+            font-size: 16px;
+            padding: 5px 15px;
+            cursor: pointer;
+        }
+
+        .submit-row {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="auction-box">
+
+    <h1>Welcome to AP Auctions. Please Enter Bid.</h1>
+
+    <form action="auction" method="post">
+
+        <table>
+
+            <tr>
+                <td>Item ID:</td>
+                <td>
+                    <input type="number"
+                           name="itemId"
+                           min="1"
+                           required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Item Name:</td>
+                <td>
+                    <input type="text"
+                           name="itemName"
+                           required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Your Name:</td>
+                <td>
+                    <input type="text"
+                           name="userName"
+                           required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Your Email Address:</td>
+                <td>
+                    <input type="email"
+                           name="email"
+                           required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Amount Bid:</td>
+                <td>
+                    <input type="number"
+                           name="amount"
+                           min="1"
+                           step="0.01"
+                           required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Auto-increment bid to match other bidders?:</td>
+                <td>
+                    <input type="checkbox"
+                           name="autoIncrement"
+                           value="true">
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" class="submit-row">
+                    <input type="submit" value="Submit Bid">
+                </td>
+            </tr>
+
+        </table>
+
+    </form>
+
+</div>
+
+</body>
+</html>
