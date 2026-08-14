@@ -1,0 +1,14 @@
+<Store xmlns:mob="http://mobile.com" xmlns:lan="http://landline.com">
+  <mob:Phone>
+    <mob:name>Moto E</mob:name>
+    <mob:ModelNo>123</mob:ModelNo>
+    <mob:Processor>Qualcomm Snapdragon 200</mob:Processor>
+    <mob:Battery>2390 mAh</mob:Battery>
+  </mob:Phone>
+  <lan:Phone>
+    <lan:name>Beetel M71 Landline</lan:name>
+    <lan:ModelNo>456</lan:ModelNo>
+    <lan:Display>LCD Screen</lan:Display>
+    <lan:Corded>Yes</lan:Corded>
+  </lan:Phone>
+</Store>

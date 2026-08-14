@@ -1,0 +1,13 @@
+<TVSCHEDULE NAME="Star Sports">
+  <CHANNEL CHAN="Sports1">
+    <BANNER>All Sports Live</BANNER>
+    <DAY>
+      <DATE>2023-11-20</DATE>
+      <PROGRAMSLOT VTR="Yes">
+        <TIME>10:00 AM</TIME>
+        <TITLE RATING="U" LANGUAGE="Telugu">Cricket Live</TITLE>
+        <DESCRIPTION>Final match coverage.</DESCRIPTION>
+      </PROGRAMSLOT>
+    </DAY>
+  </CHANNEL>
+</TVSCHEDULE>

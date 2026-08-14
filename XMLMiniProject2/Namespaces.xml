@@ -1,0 +1,16 @@
+<Root xmlns:m="http://wipro.com/marks" xmlns:p="http://wipro.com/personal">
+  <m:Student>
+    <m:StudentID>101</m:StudentID>
+    <m:TheoryMarks>80</m:TheoryMarks>
+    <m:PracticalMarks>18</m:PracticalMarks>
+    <m:TotalMarks>98</m:TotalMarks>
+    <m:Grade>O</m:Grade>
+  </m:Student>
+  <p:Student>
+    <p:StudentID>101</p:StudentID>
+    <p:Name>Manju</p:Name>
+    <p:DOB>2000-05-15</p:DOB>
+    <p:Gender>Male</p:Gender>
+    <p:Course>XML</p:Course>
+  </p:Student>
+</Root>

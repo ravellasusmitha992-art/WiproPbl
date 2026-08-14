@@ -1,0 +1,6 @@
+<StudentRegistrationForm>
+  <Name>Rahul</Name>
+  <Age>16</Age>
+  <Gender>Male</Gender>
+  <Course>C Programming</Course>
+</StudentRegistrationForm>

@@ -1,0 +1,14 @@
+<classroom>
+  <student rollno="1">
+    <firstname>Rahul</firstname>
+    <lastname>Kumar</lastname>
+    <division>A</division>
+    <marks>85</marks>
+  </student>
+  <student rollno="2">
+    <firstname>Ananya</firstname>
+    <lastname>Singh</lastname>
+    <division>B</division>
+    <marks>92</marks>
+  </student>
+</classroom>
